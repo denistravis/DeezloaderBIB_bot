@@ -795,7 +795,6 @@ def checking():
 			tg_bot_api.start_polling()
 
 tmux_session = None
-tmux_session = create_tmux()
 
 check_thread = magicThread(target = checking)
 check_thread.start()
